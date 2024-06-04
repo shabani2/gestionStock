@@ -1,0 +1,34 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.accordion{
+    background-color: transparent;
+    width: 300px;
+   }
+   .accordion-item {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .accordion-header {
+        border: none;
+        background-color: transparent;
+    }
+    
+    .accordion-button {
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    
+    .accordion-button:not(.collapsed) {
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .accordion a{
+      background: transparent;
+      text-decoration: none;
+      color: white;
+    }
